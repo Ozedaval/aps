@@ -1,0 +1,15 @@
+chatRobots:
+  - repoName: behavior-manage-server-huaxi
+    token: 7106a8e8dee80934d4b0db5750d77fe9e32279a73b4e8d487513451ecb77444f
+    AttentionUsers: [ "bohui.tang", "maojun.zhu" ]
+    templates:
+      push: "%s在%s仓库中做了【分支推送】，共有%d次提交，请%s关注"
+      comment: "%s发表了【代码评论】：%s，请%s关注。详情：%s"
+      canMerge: "%s已经%s从%s分支到%s分支的【合并请求】，请%s关注。详情：%s"
+      cannotMerge: "%s这次【合并请求】可能存在冲突，不可以被合并，请%s关注。详情：%s"
+userMobile:
+  han.zhang: +86-13325666101
+  bohui.tang: +86-18351923517
+  yanpin.chen: +86-17621670411
+  shengke.chen: +86-15206295371
+  maojun.zhu: +86-15800933567
